@@ -1,0 +1,31 @@
+html {
+    background-image: url('img/fondo.jpg');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    margin-top: 5em;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+#text {
+    margin-left: 2em;
+    margin-right: 2em;    
+}
+
+button {
+    background-color: #b6c3ae;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    height: 2em;
+    margin-bottom: 1em;    
+}
